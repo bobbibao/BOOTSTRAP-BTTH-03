@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <style>
-    header {
+    header,
+    main {
         padding: 0 24px;
         margin: 5px 96px;
         max-width: 1248px;
@@ -20,6 +21,29 @@
     
     body {
         margin: 10px;
+    }
+    
+    .seller {
+        display: inline-block;
+        position: absolute;
+        top: 40px;
+        left: 170px;
+        background-color: aqua;
+        border-radius: 15px;
+        padding: 5px 10px;
+        margin-right: 20px;
+        font-size: small;
+        background-color: #F7CB7E;
+        color: #A37B3C;
+        font-weight: 600;
+    }
+    
+    .sub {
+        position: absolute;
+        left: 90px;
+        bottom: 20px;
+        font-size: 17px;
+        opacity: 0.3;
     }
 </style>
 
@@ -46,8 +70,143 @@
                 <img src="./images/user.png" width="15px" height="15px" style="margin-left: 5px;">
             </div>
         </header>
-        <img src="./images/background.png" alt="">
-        <div></div>
+        <div style="margin-bottom: 50px;">
+            <img src="./images/background.png" alt="">
+        </div>
+        <main class="d-flex flex-column">
+            <div class="d-flex justify-content-between">
+                <div class="d-flex">
+                    <div class="btn p-4">All Products</div>
+                    <div class="p-3">Face</div>
+                    <div class="p-3">Body</div>
+                </div>
+                <div class="d-flex">
+                    <input type="text" class="form-control-plaintext">
+                    <div class="d-flex align-items-center">
+                        <div class="p-3">Sort by</div-p3>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col" style="padding: 10px;">
+                        <p class="seller">Best-seller</p>
+                        <img src="./images/product1.png" alt="">
+                        <h3 style="margin:0px; margin-top: 30px; font-size: 22px;">Product title</h3>
+                        <p style="font-size: 14px; opacity: 0.8;">Labore sint ipsum dolore mollit</p>
+                        <h1 style="color: #333841; margin-top: 20px;">$32</h1>
+                        <h5 class="sub">$42</h5>
+                        <img src="./images/cart.png" width="45px" alt="" style="position: absolute; right: 0; bottom: 20px;">
+                    </div>
+                    <div class="col" style="padding: 10px;">
+                        <p class="seller">Best-seller</p>
+                        <img src="./images/product1.png" alt="">
+                        <h3 style="margin:0px; margin-top: 30px; font-size: 22px;">Product title</h3>
+                        <p style="font-size: 14px; opacity: 0.8;">Labore sint ipsum dolore mollit</p>
+                        <h1 style="color: #333841; margin-top: 20px;">$32</h1>
+                        <h5 class="sub">$42</h5>
+                        <img src="./images/cart.png" width="45px" alt="" style="position: absolute; right: 0; bottom: 20px;">
+                    </div>
+                    <div class="col" style="padding: 10px;">
+                        <p class="seller">Best-seller</p>
+                        <img src="./images/product1.png" alt="">
+                        <h3 style="margin:0px; margin-top: 30px; font-size: 22px;">Product title</h3>
+                        <p style="font-size: 14px; opacity: 0.8;">Labore sint ipsum dolore mollit</p>
+                        <h1 style="color: #333841; margin-top: 20px;">$32</h1>
+                        <h5 class="sub">$42</h5>
+                        <img src="./images/cart.png" width="45px" alt="" style="position: absolute; right: 0; bottom: 20px;">
+                    </div>
+                    <div class="col" style="padding: 10px;">
+                        <p class="seller">Best-seller</p>
+                        <img src="./images/product1.png" alt="">
+                        <h3 style="margin:0px; margin-top: 30px; font-size: 22px;">Product title</h3>
+                        <p style="font-size: 14px; opacity: 0.8;">Labore sint ipsum dolore mollit</p>
+                        <h1 style="color: #333841; margin-top: 20px;">$32</h1>
+                        <h5 class="sub">$42</h5>
+                        <img src="./images/cart.png" width="45px" alt="" style="position: absolute; right: 0; bottom: 20px;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" style="padding: 10px;">
+                        <p class="seller">Best-seller</p>
+                        <img src="./images/product1.png" alt="">
+                        <h3 style="margin:0px; margin-top: 30px; font-size: 22px;">Product title</h3>
+                        <p style="font-size: 14px; opacity: 0.8;">Labore sint ipsum dolore mollit</p>
+                        <h1 style="color: #333841; margin-top: 20px;">$32</h1>
+                        <h5 class="sub">$42</h5>
+                        <img src="./images/cart.png" width="45px" alt="" style="position: absolute; right: 0; bottom: 20px;">
+                    </div>
+                    <div class="col" style="padding: 10px;">
+                        <p class="seller">Best-seller</p>
+                        <img src="./images/product1.png" alt="">
+                        <h3 style="margin:0px; margin-top: 30px; font-size: 22px;">Product title</h3>
+                        <p style="font-size: 14px; opacity: 0.8;">Labore sint ipsum dolore mollit</p>
+                        <h1 style="color: #333841; margin-top: 20px;">$32</h1>
+                        <h5 class="sub">$42</h5>
+                        <img src="./images/cart.png" width="45px" alt="" style="position: absolute; right: 0; bottom: 20px;">
+                    </div>
+                    <div class="col" style="padding: 10px;">
+                        <p class="seller">Best-seller</p>
+                        <img src="./images/product1.png" alt="">
+                        <h3 style="margin:0px; margin-top: 30px; font-size: 22px;">Product title</h3>
+                        <p style="font-size: 14px; opacity: 0.8;">Labore sint ipsum dolore mollit</p>
+                        <h1 style="color: #333841; margin-top: 20px;">$32</h1>
+                        <h5 class="sub">$42</h5>
+                        <img src="./images/cart.png" width="45px" alt="" style="position: absolute; right: 0; bottom: 20px;">
+                    </div>
+                    <div class="col" style="padding: 10px;">
+                        <p class="seller">Best-seller</p>
+                        <img src="./images/product1.png" alt="">
+                        <h3 style="margin:0px; margin-top: 30px; font-size: 22px;">Product title</h3>
+                        <p style="font-size: 14px; opacity: 0.8;">Labore sint ipsum dolore mollit</p>
+                        <h1 style="color: #333841; margin-top: 20px;">$32</h1>
+                        <h5 class="sub">$42</h5>
+                        <img src="./images/cart.png" width="45px" alt="" style="position: absolute; right: 0; bottom: 20px;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" style="padding: 10px;">
+                        <p class="seller">Best-seller</p>
+                        <img src="./images/product1.png" alt="">
+                        <h3 style="margin:0px; margin-top: 30px; font-size: 22px;">Product title</h3>
+                        <p style="font-size: 14px; opacity: 0.8;">Labore sint ipsum dolore mollit</p>
+                        <h1 style="color: #333841; margin-top: 20px;">$32</h1>
+                        <h5 class="sub">$42</h5>
+                        <img src="./images/cart.png" width="45px" alt="" style="position: absolute; right: 0; bottom: 20px;">
+                    </div>
+                    <div class="col" style="padding: 10px;">
+                        <p class="seller">Best-seller</p>
+                        <img src="./images/product1.png" alt="">
+                        <h3 style="margin:0px; margin-top: 30px; font-size: 22px;">Product title</h3>
+                        <p style="font-size: 14px; opacity: 0.8;">Labore sint ipsum dolore mollit</p>
+                        <h1 style="color: #333841; margin-top: 20px;">$32</h1>
+                        <h5 class="sub">$42</h5>
+                        <img src="./images/cart.png" width="45px" alt="" style="position: absolute; right: 0; bottom: 20px;">
+                    </div>
+                    <div class="col" style="padding: 10px;">
+                        <p class="seller">Best-seller</p>
+                        <img src="./images/product1.png" alt="">
+                        <h3 style="margin:0px; margin-top: 30px; font-size: 22px;">Product title</h3>
+                        <p style="font-size: 14px; opacity: 0.8;">Labore sint ipsum dolore mollit</p>
+                        <h1 style="color: #333841; margin-top: 20px;">$32</h1>
+                        <h5 class="sub">$42</h5>
+                        <img src="./images/cart.png" width="45px" alt="" style="position: absolute; right: 0; bottom: 20px;">
+                    </div>
+                    <div class="col" style="padding: 10px;">
+                        <p class="seller">Best-seller</p>
+                        <img src="./images/product1.png" alt="">
+                        <h3 style="margin:0px; margin-top: 30px; font-size: 22px;">Product title</h3>
+                        <p style="font-size: 14px; opacity: 0.8;">Labore sint ipsum dolore mollit</p>
+                        <h1 style="color: #333841; margin-top: 20px;">$32</h1>
+                        <h5 class="sub">$42</h5>
+                        <img src="./images/cart.png" width="45px" alt="" style="position: absolute; right: 0; bottom: 20px;">
+                    </div>
+                </div>
+
+            </div>
+        </main>
     </div>
 </body>
 
