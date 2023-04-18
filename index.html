@@ -76,9 +76,18 @@
 
     footer {
         background-color: rgb(44, 36, 44);
-        height: 500px;
+        height: 450px;
         padding: 100px;
         width: 100%;
+    }
+    footer a{
+        display: flex;
+        color: azure;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+    footer .col{
+        flex-grow: 0.2;
     }
 </style>
 
@@ -270,7 +279,37 @@
             </ul>
         </main>
         <footer class="d-flex ">
-            <div class="flex-fill">1</div>
+            <div class="flex-fill" style="width: 50%; opacity: 0.8;">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="display-5" style="color: #ffffff;">About</h3>
+                        <a href="">Home</a>
+                        <a  href="">Shop</a>
+                        <a  href="">Our story</a>
+                        <a href="">Blogs</a>
+                    <select name="" id=""
+                        style="padding: 5px; color:white;background-color:#1D2128; border: 1px solid white; border-radius: 5px;width: 130px;height: 35px;">
+                        <option value="">English</option>
+                        <option value="">a</option>
+                        <option value="">a</option>
+                        <option value="">a</option>
+                    </select>
+                    </div>
+                    <div class="col">
+                        <h3 class="display-5" style="color: #ffffff;">Help</h3>
+                        <a href="">Shipping & return</a>
+                        <a  href="">Track Order</a>
+                        <a  href="">FAQs</a>
+                    </div>
+                    <div class="col">
+                        <h3 class="display-5" style="color: #ffffff;">Contact</h3>
+                        <a href="">Phone</a>
+                        <a  href="">(+1) 123 456 7893</a>
+                        <a  href="">Email:</a>
+                        <a href="">name@gmail.com</a>
+                    </div>
+                  </div>
+            </div>
             <div class="flex-fill">2</div>
         </footer>
     </div>
